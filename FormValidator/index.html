@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form Validator</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="" class="form" id="form">
+        <h2 class="heading-secondary">Register with us</h2>
+        <div class="form-container__group">
+          <input
+            type="text"
+            class="form-container__input"
+            id="username"
+            placeholder="Enter username"
+          />
+          <label for="username" class="form-container__label">Username</label>
+          <small>Error message</small>
+        </div>
+        <div class="form-container__group">
+          <input
+            type="text"
+            class="form-container__input"
+            id="email"
+            placeholder="Enter email"
+          />
+          <label for="email" class="form-container__label">Email</label>
+          <small>Error message</small>
+        </div>
+        <div class="form-container__group">
+          <input
+            type="password"
+            class="form-container__input"
+            id="password"
+            placeholder="Enter password"
+          />
+          <label for="password" class="form-container__label">Password</label>
+          <small>Error message</small>
+        </div>
+        <div class="form-container__group">
+          <input
+            type="password"
+            class="form-container__input"
+            id="confirmPassword"
+            placeholder="Confirm password"
+          />
+          <label for="confirmPassword" class="form-container__label"
+            >Confirm password</label
+          >
+          <small>Error message</small>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
