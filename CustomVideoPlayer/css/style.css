@@ -41,21 +41,22 @@ body {
   border-bottom-right-radius: 1rem;
   padding: 1rem 1.5rem;
 }
-/* .video-controls:not(:last-child) {
-  margin-right: 1rem;
-} */
-.btn {
+
+.video-controls > *:not(:last-child) {
   background: transparent;
   cursor: pointer;
   border: none;
   margin-right: 1rem;
 }
+.btn {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
 .btn:focus {
   outline: none;
 }
-.timespan {
-  margin-left: 1rem;
-}
+
 .fa-play {
   color: #28a745;
 }
